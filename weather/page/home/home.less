@@ -1,0 +1,191 @@
+body{
+	background-color: #fff;
+
+	#container{
+		.show_detail{
+			background-color: #adecf7;
+			height: 3.12rem;
+			padding: 0.19rem 8%;
+			position: relative;
+			
+			header{
+				h3{
+					color: #fff;
+					font-size: 0.14rem;
+				}
+			}
+			.show_weather{
+				margin: 0.3rem 0;
+				.main_img{
+					  margin: 0 auto;
+					width: 2rem;
+					height: 0.84rem;
+				}
+			}			
+			.info{
+				width: 84%;
+				position: absolute;
+  				bottom: 0.19rem;
+
+				td{
+					width: 35%;
+					position: relative;
+				}
+				.temperature{
+					width: 0.2rem;
+					height: 0.4rem;
+					background-image: url('./images/013.png');
+					background-size: 100% 100%;
+				}
+				.humidity{
+					width: 0.32rem;
+					height: 0.3rem;
+					background-image: url('./images/014.png');
+					background-size: 100% 100%;
+				}
+				.wind{
+					width: 0.4rem;
+					height: 0.4rem;
+					background-image: url('./images/015.png');
+					background-size: 100% 100%;
+				}
+				span{
+					color: #fff;
+					font-size: 0.12rem;
+					position: absolute;
+					bottom: 0;
+					margin-left: 0.08rem;
+				}
+			}
+		}
+
+		.weather_block{
+			background-color: #ffd479;
+			li{
+				position: relative;
+				width: 32.6%;
+				height: 0.985rem;
+				margin-bottom: 3px;
+				background-color: #fec363;
+				float: left;
+
+				h3{
+					font-size: 0.12rem;
+					color: #fff;
+					font-weight: bold;
+					margin: 0.15rem 0 0.15rem 0.2rem;
+				}
+				.img_common{
+					width: 0.61rem;
+					height: 0.4rem;
+					
+					background-size: 100% 100%;
+					position: absolute;
+					right: 0.19rem;
+				}
+				.img_01{
+					background-image: url('./images/001.png');
+				}
+				.img_02{
+					background-image: url('./images/002.png');
+				}
+				.img_03{
+					background-image: url('./images/003.png');
+				}
+				.img_04{
+					background-image: url('./images/004.png');
+				}
+				.img_05{
+					background-image: url('./images/005.png');
+				}
+				.img_06{
+					background-image: url('./images/006.png');
+				}
+
+			}
+			.mid{
+				margin: 0 1%;
+			}
+		}
+	}
+
+	#shop{
+		display: none;
+
+		.toolbar{
+			width: 100%;
+			height: 0.85rem;
+			background-color: #76d0de;
+
+			a{	
+				font-size: 0.16rem;
+				text-align: center;
+				display: inline-block;
+				color: #fff;
+				width: 50%;
+				float: left;
+				line-height: 0.85rem;
+			}
+		}
+		.goods_list{
+			li{	
+				width: 50%;
+				height: 1.875rem;
+				float: left;
+				header{
+					color: #fff;
+					font-size: 0.14rem;
+					line-height: 2;
+					margin-left: 0.2rem;
+				}
+			}
+			.list_01{
+				background: url('./images/shop/011.png') center center no-repeat;
+				background-size: 30% 60%;
+			}
+			.list_02{
+				background: url('./images/shop/012.png') center center no-repeat;
+				background-size: 60%;
+			}
+			.list_03{
+				background: url('./images/shop/013.png') center center no-repeat;
+				background-size: 60%;
+			}
+			.list_04{
+				background: url('./images/shop/014.png') center center no-repeat;
+				background-size: 60%;
+			}
+			.list_05{
+				background: url('./images/shop/015.png') center center no-repeat;
+				background-size: 60%;
+			}
+			.list_06{
+				background: url('./images/shop/016.png') center center no-repeat;
+				background-size: 60%;
+			}
+
+			/* color */
+			.bg_01{
+				background-color: #adecf7;
+			}
+			.bg_02{
+				background-color: #92deeb;
+			}
+			.bg_03{
+				background-color: #ccc;
+			}
+			.bg_04{
+				background-color: #ffd479;
+			}
+		}
+	}
+
+	/* common */
+	.fl_r{
+		float: right;
+	}
+	.fl_l{
+		float: left;
+	}
+
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>weather demo</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta content="telephone=no" name="format-detection">
+	<meta content="address=no" name="format-detection">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="stylesheet" href="../../../common/css/reset.css">
+	<link rel="stylesheet" href="../../../common/css/animate.css">
+	<link rel="stylesheet" href="./home.css">
+	<script type="text/javascript" src="../../../common/js/mod.js"></script>
+	<script type="text/javascript" src="../../../common/js/zepto.js"></script>
+	<script type="text/javascript" src="../../../common/js/fastclick.js"></script>
+	<script type="text/javascript">
+		if ('addEventListener' in document) {
+		    document.addEventListener('DOMContentLoaded', function() {
+		        FastClick.attach(document.body);
+		    }, false);
+		};
+	</script>
+</head>
+<body>
+	<div id="container">
+		<div class="show_detail">
+			<header>
+				<h3 class="fl_l">LONDON,UK</h3>
+				<h3 class="fl_r date">TUE 22</h3>
+			</header>
+			<section class="show_weather">
+				<div class="main_img">
+					<img src="./images/002.png" class="weather_icon" alt="">
+				</div>
+			</section>
+			
+			<table class="info">
+				<tr>
+					<td>
+						<div class="fl_l temperature"></div>
+						<span>25/17</span>
+					</td>
+					<td>
+						<div class="fl_l humidity"></div>
+						<span>37%</span>
+					</td>
+					<td>
+						<div class="fl_l wind"></div>
+						<span>3 m/s<br>SW</span>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<ul class="weather_block">
+			<li>
+				<h3>TUE 22</h3>
+				<div class="img_common img_01" data-src="./images/002.png"></div>
+			</li>
+			<li class="mid">
+				<h3>TUE 22</h3>
+				<div class="img_common img_02" data-src="./images/004.png"></div>
+			</li>
+			<li>
+				<h3>WED 23</h3>
+				<div class="img_common img_03" data-src="./images/006.png"></div>
+			</li>
+			<li>
+				<h3>THU 24</h3>
+				<div class="img_common img_04" data-src="./images/008.png"></div>
+			</li>
+			<li class="mid">
+				<h3>TUE 26</h3>
+				<div class="img_common img_05" data-src="./images/010.png"></div>
+			</li>
+			<li>
+				<h3>TUE 27</h3>
+				<div class="img_common img_06" data-src="./images/012.png"></div>
+			</li>
+			<li>
+				<h3>TUE 28</h3>
+				<div class="img_common img_07" data-src="./images/006.png"></div>
+			</li>
+			<li class="mid">
+				<h3>TUE 29</h3>
+				<div class="img_common img_08" data-src="./images/006.png"></div>
+			</li>
+			<li>
+				<h3>TUE 30</h3>
+				<div class="img_common img_09" data-src="./images/010.png"></div>
+			</li>
+		</ul>
+	</div>
+	<!-- shop -->
+	<div id="shop">
+		<div class="toolbar">
+			<a href="../home/home.html">BACK</a>
+			<a href="">NEXT</a>
+		</div>
+		<ul class="goods_list">
+			<li class="bg_01 list_01">
+				<header>9.70$</header>
+			</li>
+			<li class="bg_02 list_02">
+				<header>9.70$</header>
+			</li>
+			<li class="bg_03 list_03">
+				<header>9.70$</header>
+			</li>
+			<li class="bg_04 list_04">
+				<header>9.70$</header>
+			</li>
+			<li class="bg_04 list_05">
+				<header>9.70$</header>
+			</li>
+			<li class="bg_02 list_06">
+				<header>9.70$</header>
+			</li>
+		</ul>
+	</div>
+	<script type="text/javascript" src="./home.js"></script>
+</body>
+</html>
